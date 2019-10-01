@@ -3,7 +3,7 @@
 }
 
 $body--Background: #F0F1F1;
-$icon-rocket--Color: #4F5D75;
+$icon-rocket--Color: rgba(216, 220, 230, 0.979);
 body{
   background-color: $body--Background;
 }
@@ -17,7 +17,7 @@ body{
   text-align: center;
 }
 .container {
-  margin-top: -200px;
+  margin-top: -60px;
 }
 
 .box-wrapper {
@@ -27,17 +27,17 @@ body{
 
 .box-faces {
   position: relative;
-  width: 200px;
+  width: 60px;
   transform-style: preserve-3d;
 }
 .box-faces p {
   padding: 40px 0;
 }
 .box-face {
-  outline: 1px solid #999;
+  outline: 1px solid rgb(209, 203, 203);
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width: 60px;
+  height: 60px;
   opacity: 0.98;
   box-shadow: inset 0px 0px 100px #555;
 }
@@ -92,19 +92,17 @@ body{
 
 .shadow {
   position: relative;
-  width: 200px;
+  width: 60px;
   transform-style: preserve-3d;
 }
 
 .shadow div{
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width: 60px;
+  height: 60px;
   top: 0px;
   opacity: 0.98;
   box-shadow: 0px 0px 100px #000;
   transform: rotateX(90deg) translateY(100px);
   transform-origin: bottom center;
 }
-View Compiled
-Resources
