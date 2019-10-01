@@ -1,22 +1,99 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hello Rigo with Vanilla.js</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-        <link rel="shortcut icon" href="./4geeks.ico"></head>
-    <body>
-        <div class="container-fluid text-center">
-            <h1 class="mt-5">Hello Rigo!</h1>
-            <img src="./rigo-baby.jpg"></img>
-            <p class="alert alert-warning mt-4">If this text is <b>not</b> centered and <b>yellow</b>, you probably have an error</p>
-            <div class="fixed-bottom p-4">
-                Made with ❤️ by <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-            </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Selection Sort Ultimate Configuration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+            <h1>Knight/Mclean Algorithms</h1>
+        </div>
+        </div>
+
+        <div class="row mx-auto">
+        <div class="col">
+            <h1>Roll dice! </h1>
+        </div>
+        </div>
+
+        <div class="row mx-auto">
+        <div class="col">
+
+            <input type="text" name="dicevalue" id="diceAmount">
+            <button class="btn btn-warning" id="roll">Roll</button>
+            <button class="btn btn-warning" id="sort">Sort</button>
+        </div>
+        </div>
+
+        <div class="row" id="unsortedDice"></div>
+            <div class="col"></div>
+
+        <div id="sortPath">
+        <!-- <div class="wrap">
+	        <div class="cube">
+                <div class="front">front</div>
+                <div class="back">back</div>
+                <div class="top">top</div>
+                <div class="bottom">bottom</div>
+                <div class="left">left</div>
+                <div class="right">right</div>
+	        </div>
+        </div> -->
+
+<div class="page">
+  <div class="container">
+    <div class="shadow-wrapper">
+      <div class="shadow">
+        <div>&nbsp;</div>
+      </div>
+    </div>
+    <div class="box-wrapper">
+      <div class="box-faces">
+        <div class="box-face box-face--is-front">
+          <p>
+            <i class="icon-rocket icon-4x"></i>
+          </p>
+        </div>
+        <div class="box-face box-face--is-back">
+          <p>
+            <i class="icon-rocket icon-4x"></i>
+          </p>
+        </div>
+        <div class="box-face box-face--is-top">&nbsp;</div>
+        <div class="box-face box-face--is-bottom">&nbsp;</div>
+        <div class="box-face box-face--is-left">
+          <p>
+            <i class="icon-rocket icon-4x"></i>
+          </p>
+        </div>
+        <div class="box-face box-face--is-right">
+          <p>
+            <i class="icon-rocket icon-4x"></i>
+          </p>
+        </div>
+
+      </div><!-- end of .box -->
+    </div><!-- end of .box-wrapper -->
+  </div><!-- /.container -->
+</div>
         </div>
 
 
-        <!-- do not remove this bundle.js tag -->
-        <script type="text/javascript" src="./bundle.js"></script></body>
+
+            <div class="col"> <h2>Dice Sorting Pathway</h2>
+                <ul class="sortPath"></ul>
+            </div>
+    </div>
+
+
+
+</body>
 </html>
